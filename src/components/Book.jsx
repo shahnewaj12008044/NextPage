@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Book = ({ book }) => {
+    
   return (
     <Link to={`/book/${book.isbn13}`}>
     <div className="overflow-hidden relative transition transform duration-200 hover:translate-y-2 shadow-lg rounded hover:shadow-2xl">
